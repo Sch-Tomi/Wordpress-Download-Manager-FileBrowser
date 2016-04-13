@@ -114,6 +114,23 @@ class DMFB_Plugin extends DMFB_LifeCycle {
 
         // Register AJAX hooks
         // http://plugin.michael-simpson.com/?page_id=41
+        add_action('wp_ajax_get_dir_tds', array(&$this, 'getTdsAjax'));
+        add_action('wp_ajax_nopriv_get_dir_tds', array(&$this, 'getTdsAjax'));
+    }
+
+    public function getTdsAjax(){
+
+        include_once(dirname(__FILE__).'/lib/DMFB_AjaxAction.php')
+
+        header("Pragma: no-cache");
+        header("Cache-Control: no-cache, must-revalidate");
+        header("Expires: Thu, 01 Jan 1970 00:00:00 GMT");
+
+        header("Content-type: text/plain");
+
+        echo get_TDS($_POST['dir']);
+        die();
+
 
     }
 
