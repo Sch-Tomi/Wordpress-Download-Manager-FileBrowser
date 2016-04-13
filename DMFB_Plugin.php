@@ -81,6 +81,8 @@ class DMFB_Plugin extends DMFB_LifeCycle {
 
     public function addActionsAndFilters() {
 
+        define('APP_BASE_PATH', dirname(__FILE__));
+
         // Add options administration page
         // http://plugin.michael-simpson.com/?page_id=47
         add_action('admin_menu', array(&$this, 'addSettingsSubMenuPage'));
@@ -106,7 +108,9 @@ class DMFB_Plugin extends DMFB_LifeCycle {
 
         // Register short codes
         // http://plugin.michael-simpson.com/?page_id=39
-
+        include_once(APP_BASE_PATH.'/lib/DMFB_FileBrowserShortCode.php');
+        $sc = new DMFB_FileBrowserShortCode();
+        $sc->register('dmfb-filebrowser');
 
         // Register AJAX hooks
         // http://plugin.michael-simpson.com/?page_id=41
