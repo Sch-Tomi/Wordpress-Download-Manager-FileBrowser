@@ -120,7 +120,7 @@ class DMFB_Plugin extends DMFB_LifeCycle {
 
     public function getTdsAjax(){
 
-        include_once(dirname(__FILE__).'/lib/DMFB_AjaxAction.php')
+        include_once(dirname(__FILE__).'/lib/DMFB_AjaxAction.php');
 
         header("Pragma: no-cache");
         header("Cache-Control: no-cache, must-revalidate");

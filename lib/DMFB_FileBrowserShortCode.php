@@ -8,7 +8,7 @@ class DMFB_FileBrowserShortCode extends DMFB_ShortCodeLoader {
      * @return string shortcode content
      */
     public function handleShortcode($atts) {
-        return 'Hello World!';
+        return admin_url('admin-ajax.php') . '?action=get_dir_tds&dir=2';
     }
 }
 
