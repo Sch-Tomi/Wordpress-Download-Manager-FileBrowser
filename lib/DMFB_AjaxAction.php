@@ -5,7 +5,6 @@ function get_TDS($dir)
     global $wpdb;
     $cats = get_terms('wpdmcategory', array('hide_empty' => false));
 
-
     // All Cats
     $scat = $dir == '/' ? '' : $dir;
 
@@ -14,8 +13,13 @@ function get_TDS($dir)
     // DIR LIST
     foreach ($cats as $id => $cat) {
         if ($cat->parent == intval($scat))
-            $return .= "<li class=\"directory collapsed\"><a href=\"#\" rel=\"" . $cat->term_id . "\">" . $cat->name . "</a></li>";
-
+            //$return .= "<li class=\"directory collapsed\"><a href=\"#\" rel=\"" . $cat->term_id . "\">" . $cat->name . "</a></li>";
+            $return .= '<tr>
+                          <td style=";background-size: 32px;background-position: 5px 8px;background-repeat:  no-repeat;padding-left: 43px;line-height: normal;">
+                            <a class="package-title ext_dir" rel="' . $cat->term_id . '" href="#">'.$cat->name.'</a><br/>
+                          </td>
+                          <td class="hidden-xs"></td>
+                        </tr>';
     }
 
     // All files
@@ -49,20 +53,18 @@ function get_TDS($dir)
 
 
     while ($packs->have_posts()) {
-        $packs->the_post();
 
+        $packs->the_post();
+        $ext = 'blank';
         $files = maybe_unserialize(get_post_meta(get_the_ID(), '__wpdm_files', true));
-        if (count($files) == 1) {
+
+        if (count($files) == 1 && $files[0]!="") {
             $tfiles = $files;
             $file = array_shift($tfiles);
             $ext = explode(".", $file);
             $ext = end($ext);
-        }
-        if (count($files) > 1) {
+        } elseif (count($files) > 1) {
             $ext = 'zip';
-        }
-        if (!is_array($files) || count($files) == 0) {
-            $ext = '_blank';
         }
 
 
@@ -74,15 +76,12 @@ function get_TDS($dir)
             //     echo "<li  class=\"file ext_$ext\"><a href='" . wpdm_download_url(get_the_ID()) . "' rel='" . wpdm_download_url(get_the_ID()) . "'>" . get_the_title() . "</a></li>";
 
             $return .= '<tr>
-                <td style=";background-size: 32px;background-position: 5px 8px;background-repeat:  no-repeat;padding-left: 43px;line-height: normal;">
-                    <a class="package-title" href= '.wpdm_download_url(get_the_ID()) .'>'.the_title().'</a><br/>
-                    <small><i class="fa fa-folder"></i> &nbsp; '.count($files).' '. _e('files','wpdmpro').' &nbsp;&nbsp;
-                        <i class="fa fa-download"></i> &nbsp; '.count($files).'
-                    </small>
-                </td>
-                <td class="hidden-xs">'. get_the_date().'</td>
-                <td><a href=' . wpdm_download_url(get_the_ID()) . ' rel=' . wpdm_download_url(get_the_ID()) . '>Letöltés</a></td>
-            </tr>';
+                          <td style=";background-size: 32px;background-position: 5px 8px;background-repeat:  no-repeat;padding-left: 43px;line-height: normal;">
+                            <a class="package-title ext_'.$ext.'" href= '.wpdm_download_url(get_the_ID()) .'>'.get_the_title().'</a><br/>
+                          </td>
+                          <td class="hidden-xs">'. get_the_date().'</td>
+                        </tr>';
+
 
 
         }
