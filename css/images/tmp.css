@@ -1,0 +1,448 @@
+div.ext_html {
+    background: rgba(0, 0, 0, 0) url("images/html.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_gif {
+    background: rgba(0, 0, 0, 0) url("images/gif.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_wav {
+    background: rgba(0, 0, 0, 0) url("images/wav.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_dmg {
+    background: rgba(0, 0, 0, 0) url("images/dmg.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_dat {
+    background: rgba(0, 0, 0, 0) url("images/dat.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_aac {
+    background: rgba(0, 0, 0, 0) url("images/aac.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_dxf {
+    background: rgba(0, 0, 0, 0) url("images/dxf.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_hpp {
+    background: rgba(0, 0, 0, 0) url("images/hpp.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_xlsx {
+    background: rgba(0, 0, 0, 0) url("images/xlsx.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_xml {
+    background: rgba(0, 0, 0, 0) url("images/xml.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_css {
+    background: rgba(0, 0, 0, 0) url("images/css.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_png {
+    background: rgba(0, 0, 0, 0) url("images/png.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_rar {
+    background: rgba(0, 0, 0, 0) url("images/rar.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_pdf {
+    background: rgba(0, 0, 0, 0) url("images/pdf.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_ots {
+    background: rgba(0, 0, 0, 0) url("images/ots.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_jpg {
+    background: rgba(0, 0, 0, 0) url("images/jpg.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_py {
+    background: rgba(0, 0, 0, 0) url("images/py.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_mpg {
+    background: rgba(0, 0, 0, 0) url("images/mpg.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_ppt {
+    background: rgba(0, 0, 0, 0) url("images/ppt.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_odf {
+    background: rgba(0, 0, 0, 0) url("images/odf.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_ott {
+    background: rgba(0, 0, 0, 0) url("images/ott.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_psd {
+    background: rgba(0, 0, 0, 0) url("images/psd.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_page {
+    background: rgba(0, 0, 0, 0) url("images/_page.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_h {
+    background: rgba(0, 0, 0, 0) url("images/h.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_bmp {
+    background: rgba(0, 0, 0, 0) url("images/bmp.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_odt {
+    background: rgba(0, 0, 0, 0) url("images/odt.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_ics {
+    background: rgba(0, 0, 0, 0) url("images/ics.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_js {
+    background: rgba(0, 0, 0, 0) url("images/js.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_mp4 {
+    background: rgba(0, 0, 0, 0) url("images/mp4.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_doc {
+    background: rgba(0, 0, 0, 0) url("images/doc.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_scss {
+    background: rgba(0, 0, 0, 0) url("images/scss.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_iso {
+    background: rgba(0, 0, 0, 0) url("images/iso.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_c {
+    background: rgba(0, 0, 0, 0) url("images/c.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_yml {
+    background: rgba(0, 0, 0, 0) url("images/yml.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_dotx {
+    background: rgba(0, 0, 0, 0) url("images/dotx.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_xls {
+    background: rgba(0, 0, 0, 0) url("images/xls.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_aiff {
+    background: rgba(0, 0, 0, 0) url("images/aiff.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_mp3 {
+    background: rgba(0, 0, 0, 0) url("images/mp3.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_less {
+    background: rgba(0, 0, 0, 0) url("images/less.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_rtf {
+    background: rgba(0, 0, 0, 0) url("images/rtf.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_cpp {
+    background: rgba(0, 0, 0, 0) url("images/cpp.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_zip {
+    background: rgba(0, 0, 0, 0) url("images/zip.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_tga {
+    background: rgba(0, 0, 0, 0) url("images/tga.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_tgz {
+    background: rgba(0, 0, 0, 0) url("images/tgz.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_otp {
+    background: rgba(0, 0, 0, 0) url("images/otp.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_key {
+    background: rgba(0, 0, 0, 0) url("images/key.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_ai {
+    background: rgba(0, 0, 0, 0) url("images/ai.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_dwg {
+    background: rgba(0, 0, 0, 0) url("images/dwg.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_sass {
+    background: rgba(0, 0, 0, 0) url("images/sass.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_sql {
+    background: rgba(0, 0, 0, 0) url("images/sql.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_txt {
+    background: rgba(0, 0, 0, 0) url("images/txt.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_qt {
+    background: rgba(0, 0, 0, 0) url("images/qt.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_tiff {
+    background: rgba(0, 0, 0, 0) url("images/tiff.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_rb {
+    background: rgba(0, 0, 0, 0) url("images/rb.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_mid {
+    background: rgba(0, 0, 0, 0) url("images/mid.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_exe {
+    background: rgba(0, 0, 0, 0) url("images/exe.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_tmp {
+    background: rgba(0, 0, 0, 0) url("images/tmp.css") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_blank {
+    background: rgba(0, 0, 0, 0) url("images/_blank.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_ods {
+    background: rgba(0, 0, 0, 0) url("images/ods.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_java {
+    background: rgba(0, 0, 0, 0) url("images/java.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_eps {
+    background: rgba(0, 0, 0, 0) url("images/eps.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_avi {
+    background: rgba(0, 0, 0, 0) url("images/avi.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_flv {
+    background: rgba(0, 0, 0, 0) url("images/flv.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+div.ext_php {
+    background: rgba(0, 0, 0, 0) url("images/php.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+

@@ -13,10 +13,10 @@ function get_TDS($dir)
     // DIR LIST
     foreach ($cats as $id => $cat) {
         if ($cat->parent == intval($scat))
-            //$return .= "<li class=\"directory collapsed\"><a href=\"#\" rel=\"" . $cat->term_id . "\">" . $cat->name . "</a></li>";
             $return .= '<tr>
-                          <td style=";background-size: 32px;background-position: 5px 8px;background-repeat:  no-repeat;padding-left: 43px;line-height: normal;">
-                            <a class="package-title ext_dir" rel="' . $cat->term_id . '" href="#">'.$cat->name.'</a><br/>
+                          <td>
+                            <div class="ext_dir"></div>
+                            <a rel="' . $cat->term_id . '" href="#">'.$cat->name.'</a><br/>
                           </td>
                           <td class="hidden-xs"></td>
                         </tr>';
@@ -51,9 +51,8 @@ function get_TDS($dir)
 
     $packs = new WP_Query($params);
 
-
     while ($packs->have_posts()) {
-
+        $return .= "FUTOTTAM!!";
         $packs->the_post();
         $ext = 'blank';
         $files = maybe_unserialize(get_post_meta(get_the_ID(), '__wpdm_files', true));
@@ -76,8 +75,9 @@ function get_TDS($dir)
             //     echo "<li  class=\"file ext_$ext\"><a href='" . wpdm_download_url(get_the_ID()) . "' rel='" . wpdm_download_url(get_the_ID()) . "'>" . get_the_title() . "</a></li>";
 
             $return .= '<tr>
-                          <td style=";background-size: 32px;background-position: 5px 8px;background-repeat:  no-repeat;padding-left: 43px;line-height: normal;">
-                            <a class="package-title ext_'.$ext.'" href= '.wpdm_download_url(get_the_ID()) .'>'.get_the_title().'</a><br/>
+                          <td>
+                            <div class="ext_'.$ext.'"></div>
+                            <a href= '.get_permalink(get_the_ID()) .'>'.get_the_title().'</a><br/>
                           </td>
                           <td class="hidden-xs">'. get_the_date().'</td>
                         </tr>';
@@ -86,10 +86,10 @@ function get_TDS($dir)
 
         }
 
-        return $return;
+
     }
 
-
+    return $return;
 }
 
 ?>

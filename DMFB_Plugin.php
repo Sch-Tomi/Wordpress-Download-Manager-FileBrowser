@@ -128,7 +128,7 @@ class DMFB_Plugin extends DMFB_LifeCycle {
 
         header("Content-type: text/plain");
 
-        echo get_TDS($_GET['dir']);
+        echo get_TDS($_POST['dir']);
         die();
 
 
